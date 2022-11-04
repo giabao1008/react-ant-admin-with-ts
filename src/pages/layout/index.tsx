@@ -131,7 +131,7 @@ const LayoutPage: FC = () => {
             />
           </Drawer>
         )}
-        <Content className="layout-page-content">
+        <Content className="layout-page-content" style={{ padding: '16px' }}>
           {/* <TagsView /> */}
           <Suspense fallback={null}>
             <Outlet />
