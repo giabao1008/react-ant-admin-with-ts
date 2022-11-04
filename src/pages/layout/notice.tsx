@@ -111,7 +111,7 @@ const HeaderNoticeComponent: FC = () => {
         borderRadius: 4,
       }}
     >
-      <Tooltip title="通知">
+      <Tooltip title="Notification">
         <Badge count={noticeCount} overflowCount={999}>
           <span className="notice" id="notice-center">
             <NoticeSvg className="anticon" />
