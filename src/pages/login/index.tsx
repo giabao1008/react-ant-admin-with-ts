@@ -33,18 +33,18 @@ const LoginForm: FC = () => {
     <div className="login-page">
       <Form<LoginParams> onFinish={onFinished} className="login-page-form" initialValues={initialValues}>
         <h2>REACT ANTD ADMIN</h2>
-        <Form.Item name="username" rules={[{ required: true, message: '请输入用户名！' }]}>
-          <Input placeholder="用户名" />
+        <Form.Item name="username" rules={[{ required: true, message: 'User Name is required' }]}>
+          <Input placeholder="User Name" />
         </Form.Item>
-        <Form.Item name="password" rules={[{ required: true, message: '请输入密码！' }]}>
-          <Input type="password" placeholder="密码" />
+        <Form.Item name="password" rules={[{ required: true, message: 'Password is required' }]}>
+          <Input type="password" placeholder="*************" />
         </Form.Item>
         <Form.Item name="remember" valuePropName="checked">
-          <Checkbox>记住用户</Checkbox>
+          <Checkbox>Remember me!</Checkbox>
         </Form.Item>
         <Form.Item>
           <Button htmlType="submit" type="primary" className="login-page-form_button">
-            登录
+            Login
           </Button>
         </Form.Item>
       </Form>

@@ -5,6 +5,7 @@ import { ConfigProvider, Spin } from 'antd';
 import { ThemeSwitcherProvider } from 'react-css-theme-switcher';
 import enUS from 'antd/es/locale/en_US';
 import zhCN from 'antd/es/locale/zh_CN';
+// import viVN from 'antd/es/locale/vi_VN';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
 import RenderRouter from './routes';
