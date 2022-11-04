@@ -101,7 +101,7 @@ const HeaderComponent: FC<HeaderProps> = ({ collapsed, toggle }) => {
           <span id="sidebar-trigger">{collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}</span>
         </div>
         <div className="actions">
-          <Tooltip
+          {/* <Tooltip
             title={formatMessage({
               id: theme === 'dark' ? 'gloabal.tips.theme.lightTooltip' : 'gloabal.tips.theme.darkTooltip',
             })}
@@ -111,7 +111,7 @@ const HeaderComponent: FC<HeaderProps> = ({ collapsed, toggle }) => {
                 onClick: onChangeTheme,
               })}
             </span>
-          </Tooltip>
+          </Tooltip> */}
           <HeaderNoticeComponent />
           <Dropdown
             overlay={
